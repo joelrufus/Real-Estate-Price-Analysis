@@ -112,6 +112,6 @@ scikit-learn
 Clone the repository and run the Jupyter Notebook to see the step-by-step analysis and model development.
 
 
-git clone https://github.com/yourusername/House-Price-Analysis.git
+git clone https://github.com/joelrufus/Real-Estate-Price-Analysis.git
 cd House-Price-Analysis
 jupyter notebook
