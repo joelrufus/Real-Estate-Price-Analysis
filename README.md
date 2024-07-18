@@ -12,27 +12,49 @@ Dataset
 The dataset contains house sale prices for King County, including Seattle. It includes homes sold between May 2014 and May 2015. The dataset was slightly modified for the purposes of this course.
 
 Variable Description
+
 id : A notation for a house
+
 date : Date house was sold
+
 price : Price is prediction target
+
 bedrooms : Number of bedrooms
+
 bathrooms : Number of bathrooms
+
 sqft_living : Square footage of the home
+
 sqft_lot : Square footage of the lot
+
 floors : Total floors (levels) in house
+
 waterfront : House which has a view to a waterfront
+
 view : Has been viewed
+
 condition : How good the condition is overall
+
 grade : Overall grade given to the housing unit, based on King County grading system
+
 sqft_above : Square footage of house apart from basement
+
 sqft_basement : Square footage of the basement
+
 yr_built : Built Year
+
 yr_renovated : Year when house was renovated
+
 zipcode : Zip code
+
 lat : Latitude coordinate
+
 long : Longitude coordinate
+
 sqft_living15 : Living room area in 2015 (implies some renovations)
+
 sqft_lot15 : LotSize area in 2015 (implies some renovations)
+
 
 Modules
 
@@ -54,6 +76,7 @@ Visualizing house prices with and without waterfront views
 Determining the correlation between square footage above ground and price
 
 Module 4: Model Development
+
 Fitting linear regression models
 Developing models using multiple features
 Creating and evaluating polynomial and ridge regression models
@@ -77,10 +100,15 @@ Usage
 To run this project, ensure you have Python installed along with the required libraries:
 
 pandas
+
 numpy
+
 matplotlib
+
 seaborn
+
 scikit-learn
+
 Clone the repository and run the Jupyter Notebook to see the step-by-step analysis and model development.
 
 
