@@ -33,7 +33,9 @@ lat : Latitude coordinate
 long : Longitude coordinate
 sqft_living15 : Living room area in 2015 (implies some renovations)
 sqft_lot15 : LotSize area in 2015 (implies some renovations)
+
 Modules
+
 Module 1: Importing Data
 
 Importing the necessary libraries
@@ -65,10 +67,13 @@ Evaluating models using R² scores
 Results
 
 Linear regression model using sqft_living yielded an R² of 0.4929.
+
 Linear regression model using multiple features yielded an R² of 0.6577.
+
 Polynomial regression with Ridge regularization yielded an R² of 0.7040.
 
 Usage
+
 To run this project, ensure you have Python installed along with the required libraries:
 
 pandas
